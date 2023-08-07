@@ -1,1 +1,4 @@
 # EmbeddedSystemsDiploma
+```
+cout>>"HEllo";
+```c
