@@ -1,8 +1,10 @@
 #include<stdio.h>
+//code to get sum of two demintion array
 int main()
 {
     float a[2][2],b[2][2];
     printf("enter the elemnts of 1st matrix\n");
+    //for loop to input elemnts of array 1
     for(int i = 0; i < 2 ; i++)
     {
         for(int j = 0; j < 2 ; j++)
@@ -12,6 +14,7 @@ int main()
         }
     }
     printf("enter the elemnts of 2nd matrix\n");
+    //for loop to input elemnts of array 2
     for(int w = 0; w < 2 ; w++)
     {
         for(int e = 0; e < 2 ; e++)
@@ -21,6 +24,7 @@ int main()
         }
     }
     printf("sum of matrix\n");
+    //for loop to print the sum of two array
     for(int r = 0; r < 2 ; r++)
     {
         for(int t = 0; t < 2 ; t++)
